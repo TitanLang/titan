@@ -15,16 +15,24 @@ Join the discord: https://discord.gg/Sy4VxYjb
 ## Contributing
 Please read CONTRIBUTING.md for more info.
 
+<br>
+
 ## Rules
 Please read RULES.md for more info.
 
+<br>
+
 ## Building
 Just run ```make```
+
+<br>
 
 ## What is Titan
 It is a programming language wrote in C designed to look clean.<br>
 Titan doesn't aim to try and reinvent the wheel but gains and identity<br>
 for a very mixed bag of syntax inspired by Ruby, Zig, Rust and C.<br>
+
+<br>
 
 ## What I want to change
 In the future once the basic syntax is complete I will move Titan to Rust<br>
