@@ -18,10 +18,11 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for more info.
 ## Rules
 Please read [RULES.md](RULES.md) for more info.
 
-<br>
-
 ## Building
 Just run ```make```
+
+## Docs
+Please read [Docs](docs/README.md) for more info.
 
 <br>
 
