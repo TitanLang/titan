@@ -18,6 +18,9 @@ Please read CONTRIBUTING.md for more info.
 ## Rules
 Please read RULES.md for more info.
 
+## Building
+Just run ```make```
+
 ## What is Titan
 It is a programming language wrote in C designed to look clean.<br>
 Titan doesn't aim to try and reinvent the wheel but gains and identity<br>
