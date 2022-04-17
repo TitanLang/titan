@@ -18,6 +18,7 @@ Now here what we do is we add pi+pi and we alread know the pi is<br>
 equal to 3.14159 so we can think of it as 3.14159+3.14159 which gives<br>
 the result 6.28318.<br>
 If we want to give a variable a specific type we do this
+**NOT IMPLEMENTED YET BELOW**
 ```
 var test: i8 = 123
 ```
@@ -31,3 +32,20 @@ u8, u16, u32, u64
 <br><br>
 
 ## Functions
+Functions are fairly simple to understand. If you want to make one<br>
+you use the keyword **func** like this
+``` 
+func test() 
+```
+Now when creating a function you have to make it before it is referenced<br>
+like so
+```
+func test()
+  print("Hello World")
+end
+
+func main()
+  test()
+end
+```
+All functions must be closed with an *end*.
