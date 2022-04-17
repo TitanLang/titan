@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-A programming language wrote in Rust.<br>
+A programming language wrote in C.<br>
 Join the discord: https://discord.gg/Sy4VxYjb
 </p>
 <br>
@@ -19,7 +19,7 @@ Please read CONTRIBUTING.md for more info.
 Please read RULES.md for more info.
 
 ## What is Titan
-It is a programming language wrote in Rust designed to look clean.<br>
+It is a programming language wrote in C designed to look clean.<br>
 Titan doesn't aim to try and reinvent the wheel but gains and identity<br>
 for a very mixed bag of syntax inspired by Ruby, Zig, Rust and C.<br>
 
