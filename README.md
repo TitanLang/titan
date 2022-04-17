@@ -13,12 +13,10 @@ Join the discord: https://discord.gg/Sy4VxYjb
 <br>
 
 ## Contributing
-Please read CONTRIBUTING.md for more info.
-
-<br>
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for more info.
 
 ## Rules
-Please read RULES.md for more info.
+Please read [RULES.md](RULES.md) for more info.
 
 <br>
 
