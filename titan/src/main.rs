@@ -4,6 +4,8 @@ use std::io::{BufRead, BufReader};
 
 mod token;
 mod lexer;
+mod semantic_analyser;
+mod parser;
 
 fn usage() {
     println!("usage: titan [help, docs, run] [file]");
@@ -28,22 +30,21 @@ fn main() {
         usage();
     }
 
-    if args[1] == "help" {
-        help();
-    }
+    match &args[1][..] {
+        "help" => help(),
+        "docs" => (),
+        "run" => {
+            let file = File::open(&args[2]).unwrap();
+            let reader = BufReader::new(file);
 
-    if args[1] == "docs" {
+            for (index, line) in reader.lines().enumerate() {
+                let line = line.unwrap(); 
+                let mut lexer = lexer::Lexer::new(line);
+                lexer.lex();
+            }
+        },
 
-    }
-
-    if args[1] == "run" {
-        let file = File::open(&args[2]).unwrap();
-        let reader = BufReader::new(file);
-
-        for (index, line) in reader.lines().enumerate() {
-            let line = line.unwrap(); 
-            let mut lexer = lexer::Lexer::new(line);
-            lexer.lex();
-        }
+        _ => usage(),
     }
 }
+
