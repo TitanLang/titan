@@ -19,7 +19,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for more info.
 Please read [RULES.md](RULES.md) for more info.
 
 ## Building
-Just run ```make```
+Just run ```cargo run [file] ``` or ```./titan [file]```
 
 ## Docs
 Please read [Docs](docs/README.md) for more info.
