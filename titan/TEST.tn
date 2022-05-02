@@ -1,0 +1,7 @@
+name: int = 124
+pi: float = 3.14159
+test: string := "Hello World"
+
+proc main() {
+	
+}
