@@ -7,8 +7,8 @@
 </h1>
 
 <p align="center">
-A programming language wrote in C.<br>
-Join the discord: https://discord.gg/Sy4VxYjb
+A programming language wrote in Rust.<br>
+Join the discord: https://discord.gg/d8bhNSvp
 </p>
 <br>
 
